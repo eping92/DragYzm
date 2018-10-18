@@ -35,6 +35,7 @@
         <artifactId>maven-jetty-plugin</artifactId>
         <version>6.1.7</version>
         <configuration>
+		  <encoding>utf-8</encoding>
           <connectors>
             <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
               <port>8888</port>
@@ -46,7 +47,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <defaultGoal>compile</defaultGoal>
   </build>
 
   <dependencies>
