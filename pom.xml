@@ -46,6 +46,7 @@
           <contextPath>/</contextPath>
         </configuration>
       </plugin>
+      <encoding>utf8</encoding>
     </plugins>
   </build>
 
