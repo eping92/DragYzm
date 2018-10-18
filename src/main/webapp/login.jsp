@@ -112,17 +112,19 @@
                     $(".yzm_image_source").show();
                     $(".yzm_image_cut_big").css("display", "none");
                 } else {
-                    $.ligerDialog.error('获取图形验证码失败！');
+                  //  $.ligerDialog.error('获取图形验证码失败！');
+                    alert('获取图形验证码失败！');
                 }
             },
             error: function (errormsg) {
-                $.ligerDialog.warn("获取图形验证码失败！");
+               // $.ligerDialog.warn("获取图形验证码失败！");
+                alert("获取图形验证码失败！");
             }
         });
     }
 
     function login() {
-        if($("#")})
+        /* if($("#")}) */
     }
 </script>
 </body>
